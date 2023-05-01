@@ -52,7 +52,7 @@
 
 @media screen and (max-width: 767px) {
   .payPage {
-    width: 100%;
+    width: 100%;max-width: 100%;
   }
   body {
   height: 100%;
