@@ -1,0 +1,62 @@
+* {
+	 		font-family: 'Poppins', sans-serif;
+	 		box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+	 	}
+	 	.payPage {
+  max-width: 360px;
+  margin: 0px auto;
+  height: 100vh;
+  background: #333;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+.paynowAmount {
+  width: 100%;
+  background: transparent;
+  border: 0;
+    border-bottom-color: currentcolor;
+    border-bottom-style: none;
+    border-bottom-width: 0px;
+  border-bottom: 1px solid #535353;
+  color: #fff;
+  margin-bottom: 25px;
+  padding: 8px 12px;
+  font-size: 16px;
+  color: #fff;
+  outline: none;
+}
+.paynowBtn {
+  width: 100%;
+  background: #a30200;
+  border: 0;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 18px;
+  padding: 8px 5px;
+  border-radius: 8px;
+  outline: none;
+  box-shadow: none;
+  cursor: pointer;
+  transition: all .4s linear;
+}
+.paynowBtn:hover {background: #000;}
+.payNow {
+  width: 100%;
+}
+
+
+
+@media screen and (max-width: 767px) {
+  .payPage {
+    width: 100%;
+  }
+  body {
+  height: 100%;
+  overflow: hidden;
+}
+
+}
